@@ -64,6 +64,15 @@ The script will calculate and display the following results:
 # Task 2:  Kafka Server, Redis Server
 
 
+### Prerequisites
+
+Before you begin, ensure you have the following prerequisites installed on your system:
+
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
+- Docker Compose: [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+
+
 ### Installing Kafka on Docker using Docker Compose
 Kafka will be run on Docker using Docker Compose. Kafka will be running in a Docker container alongside ZooKeeper for managing Kafka's data.
 
