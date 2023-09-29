@@ -129,7 +129,7 @@ Both Redis and Kafka are now up and running in Docker.
     docker exec -it redis redis-cli
     ```
     Configure redis on http://localhost:8001
-##### Execution
+### Execution
 
 
 
@@ -211,6 +211,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
    ```
     The interaction between the producer and consumer, with messages being produced and consumed can be observed.
 
+---
 
 # Task 4: Message Processing in Kafka
 
@@ -232,7 +233,7 @@ Before running the script, ensure the installation and functioning of the follow
     pip install requests kafka-python Pillow redis
     ```
 
-## Usage
+## Execution
 
 1. Start a Kafka producer to send messages with image URLs and output size information to the 'secondtask' Kafka topic.
 2. Run the script using Python:
