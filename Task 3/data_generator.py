@@ -7,7 +7,7 @@ recipient_ids = list(range(1, 100))
 
 def generate_message():
     """
-    Generate a random message with user and recipient IDs.
+    This method generates a random message with user IDs and recipient IDs.
 
     :return: A dictionary containing user_id, recipient_id, and a random message.
     """

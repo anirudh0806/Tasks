@@ -25,7 +25,7 @@ for message in consumer:
     print("Consumer records:\n")
     print(message)
 
-    # Prints a specific field from the message (adjust index as needed). 6th index contains the message.
+    # Prints the 6th index as it contains the message.
     print(message[6])
 
     # Connects to the Redis server
